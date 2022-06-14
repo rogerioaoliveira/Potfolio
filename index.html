@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Rogério A. Oliveira">
+
+        <link rel="shortcut icon" href="/Media/icon.webp" />
+        <link rel="stylesheet" href="/Styles/style.css">
+        <link rel="stylesheet" href="/Styles/navbar.css">
+        <link rel="stylesheet" href="/Styles/home.css">
+        <link rel="stylesheet" href="/Styles/about.css">
+        <link rel="stylesheet" href="/Styles/portfolio.css">
+        <link rel="stylesheet" href="/Styles/form.css">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Red+Hat+Display:wght@600&display=swap');
+        </style>
+
+        <script src="/Scripts/scritp.js"></script>
+
+        <title>Rogério A. Oliveira</title>
+    </head>
+
+    <body> 
+
+        <!-- Navegação com menu hamburguer responsivo -->
+
+        <header class="header">
+            <a class="logo" href="/index.html"><img name="top" src="/Media/logo.png" alt="Logotipo" width="432" ></a>
+            
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                    <span id="hamburger"></span>
+                </button>
+
+                <ul id="menu" role="menu">
+                    <li><a href="/index.html#home">Home</a></li>
+
+                    <li><a href="/index.html#about">Sobre</a></li>
+                    
+                    <li><a href="/index.html#portfolio">Portfolio</a></li>
+                    
+                    <li><a href="/index.html#contacts">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <script src="/Scripts/mobile-navbar.js"></script>
+
+        <main>
+
+<!-- Para dividir a tela em 4 divs afim de aplicar o scroll horizontal  -->
+
+            <div class="outer-wrapper">              
+                <div class="wrapper">
+            
+<!-- Divide a tela em 2 divs de 50% lado a lado -->
+
+                    <section class="slide one" id="home">
+                        <div id="hello-txt">
+                            <p id="hello">OLÁ, EU SOU</p>
+
+                            <h1>Rogério Alexandre <br> de Oliveira</h1>
+
+                            <h2>Desenvolvedor Frontend</h2>
+
+                            <p class="home-p">Desenvolvedor frontend, com conhecimento em:</p> 
+                                
+                            <p class="home-p">HTML5, CSS3, JavaScript e WordPress</p>
+                            
+                            <button id="hire">Contrate-me</button>
+                        </div>
+
+                        <div id="hello-img">
+                            <img src="/Media/avatar.webp" alt="Avatar trabalhando em frente ao computador" width="500">
+                        </div>
+                    </section>
+
+                    <section class="slide two" >
+                        <h2 id="about">Sobre mim</h2>
+
+                        <div id="about-img">
+                            <img src="/Media/foto.webp" alt="Foto de Rogério A. Oliveira" width="400">
+                        </div>
+
+                        <div id="about-txt">
+                            <h3>Sobre mim</h3>
+
+                            <p class="about-p">Me chamo Rogério Alexandre de Oliveira, curso a 3º fase do Tecnólogo de Análise e Desenvolvimento de Sistemas pela Wyden Educacional.</p>
+
+                            <p class="about-p">Antes disso, vinha estudando por conta própria a parte de desenvolvimento web e a linguegem Java junto com MySQL para manipulação de banco de dados.</p>
+                            
+                            <p class="about-p">Atualmente trabalho como freelancer, desenvolvendo sites responsivos para clientes de áreas variadas.</p>
+
+                            <p class="about-p">Já atuei com  atendimento, vendas, marketing e liderança, como SDR e tenho experiência em implementação de softwares, Atuação na criação de backlog para implementação de CRM e ChatBoot, criação de copywriting, análise e validação de software com relação às espectativas da empresa e definição de funís de vendas.</p>
+
+                            <button id="cv">Baixar curriculo</button>
+                        </div>
+                    </section>
+                    
+                    <section class="slide three">
+                        <h2 id="portfolio">Portfolio</h2>
+
+
+                    </section>
+                    
+                    <section class="slide four">
+                        <h2 id="contacts">Contato</h2>
+
+                        <div id="form">
+                            <form action="https://formsubmit.co/3572875838575826ce2cb0b249fc9820" method="POST">
+                                <input type="text" name="name" placeholder="Nome" required>
+                                <input type="email" name="email" placeholder="E-mail" required>
+                                <input type="tel" name="telefone" placeholder="Telefone com DDD" required>
+                                <textarea name="message" id="message" placeholder="Escreva aqui sua mensagem" required></textarea>
+                                <input type="hidden" name="_next" value="https://alscontabilidade.netlify.app/thanks.html">
+                                <button id="submit" type="submit">Enviar</button>
+                            </form> 
+                        </div>
+
+                        <div id="form2">
+                            <a id="mail" href="mailto:rogerio_a.oliveira@hotmail.com"><img src="/Media/email.webp" alt="Icone mostrando uma carta, simbolizando o e-mail">  rogerio_a.oliveira@hotmail.com</a>               
+                            
+                            <a id="cel" href="tel:48984744030"><img src="/Media/telefone.webp" alt="Icone mostrando telefone, simbolizando o telefone">  (48) 9.9173-5583</a>
+                            
+                            <a id="address" href="https://goo.gl/maps/S7tgJRm22f8beaoy9"><img src="/Media/localizacao.webp" alt="Icone de pin de localização">  Forquilhas - São José/SC</a>
+                            
+                            <a id="git" href="https://github.com/rogerioaoliveira"><img src="/Media/github.webp" alt="Logo do Github">  Github</a>
+
+                            <a id="linkedin" href="https://www.linkedin.com/in/raoliveiradev/"><img src="/Media/linkedin.webp" alt="Logo do LinkedIn">  LinkedIn</a>
+
+                            <a id="whats" href="https://api.whatsapp.com/send?phone=5548991735583&text=Ol%C3%A1%2C%20gostei%20do%20seu%20portfolio%20e%20gostaria%20de%20conversar."><img src="/Media/whats.webp" alt="Logo do WhatsApp">  WhatsApp</a>
+                        </div>  
+                    </section>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

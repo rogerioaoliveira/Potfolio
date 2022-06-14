@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+h2{
+    color: #00ffbb;
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+}
+#submit{
+    height: 3em;
+    width: 7em;
+    margin-left: 27%;
+}
+
+
+/* Para dividir a section de contato em 2 divs iguais */
+
+.four div{
+    width: 50%;
+    display: inline-block;
+}
+#form{
+    float: right;
+    line-height: 1em;
+    margin-top: 3em;
+}
+#form input{ 
+    width: 50%;
+    height: 3em;
+    padding: 0.7em;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    border: 1px solid #86faea;
+    color: #86faea;
+    margin-left: 5em;
+}
+#form input:hover{ 
+    border: 3px solid #00ffbb;
+    transition: 0.3s;
+}
+#form textarea{
+    border-radius: 0.25rem;
+    width: 50%;
+    height: 10em;
+    margin-bottom: 2em;
+    background-color: transparent;
+    border: 1px solid #86faea;
+    color: #86faea;
+    margin-left: 5em;
+}
+#form textarea:hover{
+    border: 3px solid #00ffbb;
+    transition: 0.3s;
+}
+#form2{
+    float: left;
+    margin-top: 2em;
+}
+#form2 img{
+    width: 2em;
+    height: auto;
+    margin-right: 0.5em;
+}
+#form2 a{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 3em;
+}
+#form2 a:hover{
+    color: #86faea;
+    font-size: 1.3rem;
+}
+#mail img{
+    width: 2em;
+    height: 2em;
+    margin-left: 10em;
+}
+#cel img{
+    width: 2em;
+    height: 2em;
+    margin-left: 10em;
+}
+#address img{
+    width: 2em;
+    height: 2em;
+    margin-left: 10em;
+}
+#git img{
+    width: 2em;
+    height: 2em;
+    margin-left: 10em;
+}
+#linkedin img{
+    width: 2em;
+    height: 2em;
+    margin-left: 10em;
+}
+#whats img{
+    width: 2em;
+    height: 2em;
+    margin-left: 10em;
+}
+
+/* Para estilizar a página de Obrigado após o usuário enviar pelo formulário */
+
+#thanks h1{
+    color: #ffffff;
+    margin-top: 1em;
+    width: 25vw;
+    height: auto;
+    display: flex;
+    line-height: 1.7em;
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+}
+#thanks h2{
+    color: #ffffff;
+    margin-top: 1em;
+    width: 25vw;
+    height: auto;
+    display: flex;
+    font-size: 1em;
+    margin: auto;
+    line-height: 3em;
+    justify-content: center;
+}
+
+/* Para adequação de tela e responsividade */
+
+@media (max-width: 750px) {
+    #contacts div{
+        width: 100%;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    div#form{
+        display: none;
+    }
+    #form2{
+        float: none;
+        margin-top: 0;
+    }
+    #form2 a{
+        font-size: small;
+        width: 100vw;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 2em;
+        display: block;   
+    }
+    #form2 img{
+        display: grid;
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    #thanks h1{
+        margin: 0 0 0 0;
+        width: 70vw;
+        height: auto;
+        font-size: medium;
+        animation: none;
+    }
+    footer p{
+        font-size: smaller;
+        margin: 3em 0 3em 0;
+    }
+}
+
+@media (max-width: 425px){
+    div#form{
+        display: none;
+    }
+    #form2 img{
+        display: grid;
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+}

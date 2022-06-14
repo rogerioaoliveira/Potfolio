@@ -1,0 +1,103 @@
+/* para dividir a section da home em 2 divs iguais */
+
+#home div{
+    width: 50vw;
+    display: inline-block;    
+}
+#hello-txt{
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    line-height: 2em;
+}
+#hello-txt h1{
+    font-size: 5em;
+    line-height: 1em;
+}
+#hello-txt h2{
+    font-size: 2em;
+}
+.home-p{
+    margin-left: 5em;
+}
+#hello{
+    margin-top: 9em;
+    margin-bottom: 2em;
+    margin-left: 4em;
+}
+#hire{
+    margin: auto;
+    margin-top: 20px;
+    width: 10em;
+}
+#hello-img{
+    float: right;
+}
+#hello-img img{
+    position: absolute;
+    margin-left: 7rem;
+    bottom: 0;    
+}
+
+/* Para adequação de tela e responsividade */
+
+@media (max-width: 1225px) {
+    #hello-img img{
+        width: 400px;
+    }
+    .home-p{
+        margin-left:0;
+    }
+    #hello{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1020px) {
+    #hello-txt h1{
+        font-size: 2em;
+    }
+    #hello-img img{
+        width: 250px;
+        margin-left: 7rem;
+    }
+    .home-p{
+        margin-left:0;
+    }
+    #hello{
+       
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    #home div{
+      width: 100vw;
+    }
+      #hello-img img{
+        display: none;
+      }
+    .home-p{
+        margin-left:0;
+    }
+    #hello{
+        width: 100vw;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    #hello-txt h2{
+        font-size: larger;
+    }
+    #hello-txt p{
+        font-size: small;
+    }
+    .home-p{
+        margin-left:0;
+    }
+    #hello{
+        width: 100vw;
+        margin-left: 0;
+    }
+}

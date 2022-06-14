@@ -1,0 +1,59 @@
+/* Para zerar o estilo original do navegador e setar a fonte */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/* Para fazer o scroll horizontal e não mostrar a barra na tela */
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background: url("/Media/bkg.webp") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display:none;
+}
+button{
+    border-radius: 50px;
+    background-color: #86faea;
+    color: #00533c; 
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+
+}
+button:hover{
+    background-color: #00ffbb;
+    color: #ffffff;
+    transition: 0.3s;
+    border: none;
+}
