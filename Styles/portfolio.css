@@ -1,0 +1,39 @@
+.three{
+    margin-top: 70em;
+}
+.container{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "c1 c2" "c3 c4" "c5 .";
+    grid-gap: 1em;
+    text-align: center;
+    justify-content: center;
+    
+}
+#cel1{
+    grid-area: c1;
+}
+#cel2{
+    grid-area: c2;
+}
+#cel3{
+    grid-area: c3;
+}
+#cel4{
+    grid-area: c4;
+}
+#cel5{
+    grid-area: c5;
+}
+video{
+    width: 40vw;
+    height: 40vh;
+    margin-bottom: 1em;
+}
+.port-img{
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    margin-right: 1em;
+}

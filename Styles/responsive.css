@@ -1,0 +1,340 @@
+
+@media (max-width: 1225px) {
+    #hello-img img{
+        width: 400px;
+    }
+    .home-p{
+        margin-left:0;
+    }
+    #hello{
+        margin-left: 0;
+    }
+    #about-img{
+        width: 100vw;
+        margin-top: 0;
+        margin-left: 3.5em;
+        margin-bottom: -6em;
+        float: none;
+    }
+    #about-img img{
+        width: 100px;
+    }
+    .two div{
+        width: 100vw;
+        display: grid;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        line-height: 1em;
+    }
+    .about-p{
+        width: 90vw;
+        font-size: small;
+        margin: 0 auto;
+    }
+    #about-txt{
+        width: 100vw;
+        float: none;
+
+    }
+    #about-txt h3{ 
+        display: none;
+    }
+    #cv{
+        width: 10em;
+        margin-left: 37vw;
+    }
+    .two h2{
+        width: 100vw;
+        margin-left: 0;
+    }
+    .three{
+        margin-top: 5em;
+    }
+}
+
+@media (max-width: 1020px) {
+    #hello-txt h1{
+        font-size: 2em;
+    }
+    #hello-img img{
+        width: 250px;
+        margin-left: 7rem;
+    }
+    .home-p{
+        margin-left:0;
+    }
+    #hello{
+        margin-left: 0;
+    }
+    .port-img{
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: 0.3em;
+        display: inline-block;
+        text-align: center;
+        justify-items: center;
+    }
+    .container a{
+        line-height: 2em;
+        line-break: anywhere;
+        float: left;
+    }
+}
+
+@media (max-width: 850px) {
+    #menu {
+        display: block;
+        position: absolute;
+        width: 50vw;
+        top: 4.5rem;
+        right: 0px;
+        background: #00000057;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu {
+        height: 100vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .logo img{
+        display: flex;
+        width: 15em;
+        height: auto;
+    }
+    .logo img:hover{
+        width: 15em;
+        height: auto;
+    }
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-radius: 0;
+    }
+    #btn-mobile {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+    }
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+        color: #00ffbb;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+        color: #00ffbb;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    a.start{
+        display: none;
+    }
+    #map iframe{
+        width: 70vw;
+        height: 40vh;
+    }
+    .start{
+        display: none;
+    }
+    .container a{
+        font-size: small;   
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 750px) {
+    #contacts div{
+        width: 100%;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    div#form{
+        display: none;
+    }
+    #form2{
+        float: none;
+        margin-top: 0;
+    }
+    #form2 a{
+        font-size: small;
+        width: 100vw;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 2em;
+        display: block;   
+    }
+    #form2 img{
+        display: grid;
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    #thanks h1{
+        margin: 0 0 0 0;
+        width: 70vw;
+        height: auto;
+        font-size: medium;
+        animation: none;
+    }
+    footer p{
+        font-size: smaller;
+        margin: 3em 0 3em 0;
+    }
+}
+
+@media (max-width: 425px){
+    div#form{
+        display: none;
+    }
+    #form2 img{
+        display: grid;
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+}
+@media (max-width: 720px) {
+    .one div{
+      width: 100vw;
+    }
+    #hello-img img{
+    display: none;
+    }
+    .home-p{
+        margin-left:0;
+    }
+    #hello{
+        width: 100vw;
+        margin-left: 0;
+    }
+    #about-img{
+        text-align: center;
+        justify-content: center;
+        margin-left: 3.5em;
+        margin-bottom: -6em;
+    }
+    .two div{
+        width: 100%;
+        display: block;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        line-height: 1em;
+    }
+    .about-p{
+        width: 90vw;
+        font-size: small;
+        margin: 0 auto;
+    }
+    #about-txt{
+        width: 100vw;
+        float: none;
+
+    }
+    #about-txt h3{ 
+        display: none;
+    }
+    #cv{
+        justify-content: center;
+        width: 10em;
+        margin-left: 0;
+    }
+    .two h2{
+        width: 100vw;
+        margin-left: 0;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    h1{
+      font-size: 48px;
+    }
+    .logo img{
+        width: 11em;
+        height: auto;
+        margin-left: 0.2em;
+    }
+  }
+
+@media (max-width: 350px) {
+    .logo img{
+        width: 8em;
+      }
+    #hello-txt h2{
+        font-size: larger;
+    }
+    #hello-txt p{
+        font-size: small;
+    }
+    .home-p{
+        margin-left:0;
+    }
+    #hello{
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    #about-img{
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin-left: 3.5em;
+        margin-bottom: -6em;
+    }
+    .two div{
+        width: 100%;
+        display: block;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        line-height: 1em;
+    }
+    .about-p{
+        width: 90vw;
+        font-size: small;
+        margin: 0 auto;
+    }
+    #about-txt{
+        width: 100vw;
+        float: none;
+
+    }
+    #about-txt h3{ 
+        display: none;
+    }
+    #cv{
+        justify-content: center;
+        width: 10em;
+        margin-left: 0;
+    }
+    .two h2{
+        width: 100vw;
+        margin-left: 0;
+    }
+}

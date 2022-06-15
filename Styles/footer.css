@@ -1,0 +1,31 @@
+footer p{
+    display: block;
+    font-size: small;
+    font-style: italic;
+    position: relative;
+    text-align: right;
+    margin: 2em;
+    margin-top: 42em;
+    right: 10vw;
+}
+footer a:hover{
+    font-size: medium;
+}
+.start{    
+    text-decoration: none;
+    transition: 0.3s;
+    position: fixed;
+    cursor: pointer;
+    top: 90vh;
+    right: 1.5em;
+    border: none;
+    display: block;
+    white-space: nowrap;
+    font-size: small;
+    letter-spacing: 0;
+    transform: translate(0,-47px) rotate(-90deg);
+}
+.start:hover{
+    font-size: medium;
+    color: #FFFFFF;
+}
