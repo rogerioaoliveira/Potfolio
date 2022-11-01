@@ -3,26 +3,27 @@
     display: inline-block;
     position: relative;
 }
+#about-title{
+    margin-top: 110vh;
+}
 #about-img{
     position: absolute;
     left: 0;
-    top: 100vh;
+    top: 150vh;
     margin: auto;
     text-align: right;
     width: 50vw;
     justify-content: space-around;
-    margin-top: 10em;
     padding-right: 7em;
 }
 #about-txt{
     position: absolute;
     right: 0;
-    top: 100vh;
+    top: 150vh;
     width: 48vw;
     margin: auto;
     text-align: left;
     justify-content: space-around;
-    margin-top: 10em;
     padding-right: 7em;
 }
 .about-p{

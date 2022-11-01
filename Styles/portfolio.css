@@ -1,42 +1,58 @@
 .three{
-    margin-top: 70em;
-}
-.container{
-    display: grid;
-    grid-template-columns: 40% 40%;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "c1 c2" "c3 c4" "c5 .";
-    grid-gap: 1em;
+    margin: auto;
     text-align: center;
-    justify-content: center;
-    
+    margin-top: 110vh;
 }
-#cel1{
-    grid-area: c1;
+#ptfl{
+    margin-bottom: 2em;
 }
-#cel2{
-    grid-area: c2;
+h4, p{
+    color: #86faea;
+    margin-bottom: 2em;
 }
-#cel3{
-    grid-area: c3;
+h4{
+    font-size: 1.5em;
+    text-align: center;
 }
-#cel4{
-    grid-area: c4;
+.div-link a{
+    margin-left: 10em;
 }
-#cel5{
-    grid-area: c5;
+.portfolio-img{
+    width: 30em;
+    height: auto;
 }
-video{
-    width: 40vw;
-    height: 40vh;
-    margin-bottom: 1em;
+.portfolio-icone{
+    width: 2.5em;
+    height: auto;
+    float: left;
+    margin-top: 10em;
 }
-.port-img{
-    width: 2em;
-    height: 2em;
-    vertical-align: middle;
-    margin-right: 1em;
+.div-img{
+    width: 50%;
+    float: left;
 }
-#portfolio{
-    margin: 3rem;
+.div-link{
+    display: flex;
+    width: 50%;
+    justify-content: center;    
+}
+div.site1{
+    width: 70vw;
+    height: 60vh;
+    display: inline-block;
+}
+div.site2{
+    width: 70vw;
+    height: 60vh;
+    display: inline-block;
+}
+div.site3{
+    width: 70vw;
+    height: 60vh;
+    display: inline-block;
+}
+div.site4{
+    width: 70vw;
+    height: 60vh;
+    display: inline-block;
 }

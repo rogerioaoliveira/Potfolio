@@ -11,13 +11,14 @@
 }
 #hello-txt h1{
     font-size: 4em;
-    line-height: 1em;
+    line-height: 1.5em;
 }
 #hello-txt h2{
-    line-height: 5em;}
+    line-height: 1.5em;
+}
 #hire{
-    margin: auto;
-    margin-top: 20px;
+    margin-right: 4em;
+    margin-top: 1.5em;
     width: 10em;
 }
 #hello-img img{

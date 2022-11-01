@@ -1,182 +1,219 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Rogério A. Oliveira">
 
-        <link rel="shortcut icon" href="/Media/icon.webp" />
-        <link rel="stylesheet" href="/Styles/style.css">
-        <link rel="stylesheet" href="/Styles/navbar.css">
-        <link rel="stylesheet" href="/Styles/home.css">
-        <link rel="stylesheet" href="/Styles/about.css">
-        <link rel="stylesheet" href="/Styles/portfolio.css">
-        <link rel="stylesheet" href="/Styles/form.css">
-        <link rel="stylesheet" href="/Styles/footer.css">
-        <link rel="stylesheet" href="/Styles/responsive.css">
-        <link rel="stylesheet" href="/Styles/lgpd.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rogério A. Oliveira">
+
+    <link rel="shortcut icon" href="/Media/icon.webp" />
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="/Styles/navbar.css">
+    <link rel="stylesheet" href="/Styles/home.css">
+    <link rel="stylesheet" href="/Styles/about.css">
+    <link rel="stylesheet" href="/Styles/portfolio.css">
+    <link rel="stylesheet" href="/Styles/form.css">
+    <link rel="stylesheet" href="/Styles/footer.css">
+    <link rel="stylesheet" href="/Styles/responsive.css">
+    <link rel="stylesheet" href="/Styles/lgpd.css">
 
 
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Red+Hat+Display:wght@600&display=swap');
-        </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Red+Hat+Display:wght@600&display=swap');
+    </style>
 
-        <script src="/Scripts/scritp.js"></script>
+    <script src="/Scripts/scritp.js"></script>
 
-        <title>Rogério A. Oliveira</title>
-    </head>
+    <title>Rogério A. Oliveira</title>
+</head>
 
-    <body> 
-        <header class="header">
-            <a class="logo" href="/index.html"><img name="top" src="/Media/logo.png" alt="Logotipo" width="432" ></a>
-            
-            <nav id="nav">
-                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-                    <span id="hamburger"></span>
-                </button>
+<body>
+    <header class="header">
+        <a class="logo" href="/index.html"><img name="top" src="/Media/logo.png" alt="Logotipo" width="432"></a>
 
-                <ul id="menu" role="menu">
-                    <li><a href="/index.html#home">Home</a></li>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
 
-                    <li><a href="/index.html#about">Sobre</a></li>
-                    
-                    <li><a href="/index.html#portfolio">Portfolio</a></li>
-                    
-                    <li><a href="/index.html#contacts">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
+            <ul id="menu" role="menu">
+                <li><a href="/index.html#home">Home</a></li>
 
-        <script src="/Scripts/mobile-navbar.js"></script>
+                <li><a href="/index.html#about-title">Sobre</a></li>
 
-        <main>
-            <section class="one">
-                <div id="hello-txt">
-                    <p id="hello">OLÁ, EU SOU</p>
+                <li><a href="/index.html#ptfl">Portfolio</a></li>
 
-                    <h1>Rogério Alexandre <br> de Oliveira</h1>
+                <li><a href="/index.html#contacts">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                    <h2>Desenvolvedor Frontend</h2>
+    <script src="/Scripts/mobile-navbar.js"></script>
 
-                    <p class="home-p">Desenvolvedor frontend, com conhecimento em:</p> 
-                        
-                    <p class="home-p">HTML5, CSS3, JavaScript e WordPress</p>
-                    
-                    <a href="/index.html#contacts"><button id="hire">Contrate-me</button></a>
+    <main>
+        <section class="one">
+            <div id="hello-txt">
+                <p id="hello">OLÁ, EU SOU</p>
+
+                <h1>Rogério Alexandre <br> de Oliveira</h1>
+
+                <h2>Desenvolvedor Frontend</h2>
+
+                <p class="home-p">HTML5, CSS3, JavaScript e WordPress</p>
+
+                <a href="/index.html#contacts"><button id="hire">Fale comigo</button></a>
+            </div>
+
+            <div id="hello-img">
+                <img src="/Media/avatar.webp" alt="Avatar trabalhando em frente ao computador" width="500">
+            </div>
+        </section>
+
+        <section class="two">
+            <h2 id="about-title">Sobre</h2>
+
+            <div id="about-img">
+                <img src="/Media/foto.webp" alt="Foto de Rogério A. Oliveira" width="400">
+            </div>
+
+            <div id="about-txt">
+                <p class="about-p">Me chamo Rogério Alexandre de Oliveira, curso a 3º fase do Tecnólogo de Análise e
+                    Desenvolvimento de Sistemas pela Wyden Educacional.</p>
+
+                <p class="about-p">Antes disso, vinha estudando por conta própria a parte de desenvolvimento web e a
+                    linguegem Java junto com MySQL para manipulação de banco de dados.</p>
+
+                <p class="about-p">Atualmente trabalho como freelancer, desenvolvendo sites responsivos para clientes de
+                    áreas variadas.</p>
+
+                <p class="about-p">Já atuei com atendimento, vendas, marketing e liderança, como SDR e tenho experiência
+                    em implementação de softwares, Atuação na criação de backlog para implementação de CRM e ChatBoot,
+                    criação de copywriting, análise e validação de software com relação às espectativas da empresa e
+                    definição de funís de vendas.</p>
+
+                <button id="cv">Baixar curriculo</button>
+            </div>
+        </section>
+
+        <section class="three">
+            <h2 id="ptfl">Portifólio</h2>
+            <div class="site1">
+                <div class="div-img">
+                    <h4>Google Glass</h4>
+                    <img class="portfolio-img" src="/Media/glass.webp"
+                        alt="Print da página inicial do site criado para aperfeiçoamento de estudos do Google Glass">
                 </div>
-
-                <div id="hello-img">
-                    <img src="/Media/avatar.webp" alt="Avatar trabalhando em frente ao computador" width="500">
+                <div class="div-link">
+                    <a href="https://googleglassproject.netlify.app/" target="_blank">
+                        <img class="portfolio-icone" src="/Media/site.webp" alt="Icone simbolizando site">
+                        <p>Site</p>
+                    </a>
+                    <a href="https://github.com/rogerioaoliveira/Google--Glass" target="_blank">
+                        <img class="portfolio-icone" src="/Media/github2.webp" alt="icone do github">
+                        <p>Github</p>
+                    </a>
                 </div>
-            </section>
-
-            <section class="two">
-                <h2 id="about">Sobre</h2>
-
-                <div id="about-img">
-                    <img src="/Media/foto.webp" alt="Foto de Rogério A. Oliveira" width="400">
+            </div>
+            <div class="site2">
+                <div class="div-img">
+                    <h4>Evaluate Movies</h4>
+                    <img class="portfolio-img" src="/Media/movie.webp"
+                        alt="Print da página inicial do site de avaliação de filmes, criado para aperfeiçoamento de estudos em React e Back-eand">
                 </div>
-
-                <div id="about-txt">
-                    <h3>Sobre mim</h3>
-
-                    <p class="about-p">Me chamo Rogério Alexandre de Oliveira, curso a 3º fase do Tecnólogo de Análise e Desenvolvimento de Sistemas pela Wyden Educacional.</p>
-
-                    <p class="about-p">Antes disso, vinha estudando por conta própria a parte de desenvolvimento web e a linguegem Java junto com MySQL para manipulação de banco de dados.</p>
-                    
-                    <p class="about-p">Atualmente trabalho como freelancer, desenvolvendo sites responsivos para clientes de áreas variadas.</p>
-
-                    <p class="about-p">Já atuei com  atendimento, vendas, marketing e liderança, como SDR e tenho experiência em implementação de softwares, Atuação na criação de backlog para implementação de CRM e ChatBoot, criação de copywriting, análise e validação de software com relação às espectativas da empresa e definição de funís de vendas.</p>
-
-                    <button id="cv">Baixar curriculo</button>
+                <div class="div-link">
+                    <a href="https://rogeriooliveiradsmovie.netlify.app/" target="_blank">
+                        <img class="portfolio-icone" src="/Media/site.webp" alt="Icone simbolizando site">
+                        <p>Site</p>
+                    </a>
+                    <a href="https://github.com/rogerioaoliveira/Monorepo--SpringBoot--React" target="_blank">
+                        <img class="portfolio-icone" src="/Media/github2.webp" alt="icone do github">
+                        <p>Github</p>
+                    </a>
                 </div>
-            </section>
-                    
-            <section class="three">
-                <h2 id="portfolio">Portfolio</h2>
+            </div>
+            <div class="site3">
+                <div class="div-img">
 
-                <div class="container">
-                    <div id="cel1">
-                        <video src="/Media/glass.mp4" autoplay muted controls></video>
-                        
-                        <a href="https://googleglassproject.netlify.app/" target="_blank"><img src="/Media/site.webp" class="port-img"> Visite o site</a><br>
-                        
-                        <a href="https://github.com/rogerioaoliveira/Google--Glass" target="_blank"><img src="/Media/github2.webp" class="port-img"> Visite o repositório</a>
-                    </div>
-
-                    <div id="cel2">
-                        <video src="/Media/movie.mp4" autoplay muted controls></video>
-                        
-                        <a href="https://rogeriooliveiradsmovie.netlify.app/" target="_blank"><img src="/Media/site.webp" class="port-img"> Visite o site</a><br>
-                        
-                        <a href="https://github.com/rogerioaoliveira/Monorepo--SpringBoot--React" target="_blank"><img src="/Media/github2.webp" class="port-img"> Visite o repositório</a>
-                    </div>
-
-                    <div id="cel3">
-                        <video src="/Media/topologica.mp4" autoplay muted controls></video>
-                        
-                        <a href="https://topologica.netlify.app/" target="_blank"><img src="/Media/site.webp" class="port-img"> Visite o site</a><br>
-
-                        <a href="https://github.com/rogerioaoliveira/Topologica--Site" target="_blank"><img src="/Media/github2.webp" class="port-img"> Visite o repositório</a>
-                    </div>
-
-                    <div id="cel4">
-                        <video src="/Media/als contabilidade.mp4" autoplay muted controls></video>
-                        
-                        <a href="https://alscontabilidade.netlify.app/" target="_blank"><img src="/Media/site.webp" class="port-img"> Visite o site</a><br>
-
-                        <a href="https://github.com/rogerioaoliveira/Site--ALS--Contabilidade" target="_blank"><img src="/Media/github2.webp" class="port-img"> Visite o repositório</a>
-                    </div>
-
-                    <div id="cel5">
-                        <video src="" autoplay muted controls></video>
-                        
-                        <a href="" target="_blank"><img src="/Media/site.webp" class="port-img"> Visite o site</a><br>
-                        
-                        <a href="https://github.com/rogerioaoliveira/Potfolio" target="_blank"><img src="/Media/github2.webp" class="port-img"> Visite o repositório</a>
-                    </div>
+                    <h4>Topológica</h4>
+                    <img class="portfolio-img" src="/Media/topo.webp"
+                        alt="Print da página inicial do site da Associação Psicanalítica Topológica">
                 </div>
-            </section>
-            
-            <section class="four">
-                <h2 id="contacts">Contato</h2>
-
-                <div id="form">
-                    <form action="https://formsubmit.co/rogerio_a.oliveira@hotmail.com" method="POST">
-                        <input type="text" name="name" placeholder="Nome" required>
-                        <input type="email" name="email" placeholder="E-mail" required>
-                        <input type="tel" name="telefone" placeholder="Telefone com DDD" required>
-                        <textarea name="message" id="message" placeholder="Escreva aqui sua mensagem" required></textarea>
-                        <input type="hidden" name="_next" value="https://rogerioaoliveira.netlify.app//Pages/thanks.html">
-                        <button id="submit" type="submit">Enviar</button>
-                    </form> 
+                <div class="div-link">
+                    <a href="https://www.topologica.com.br/" target="_blank">
+                        <img class="portfolio-icone" src="/Media/site.webp" alt="Icone simbolizando site">
+                        <p>Site</p>
+                    </a>
+                    <a href="https://github.com/rogerioaoliveira/Topologica--Site" target="_blank">
+                        <img class="portfolio-icone" src="/Media/github2.webp" alt="icone do github">
+                        <p>Github</p>
+                    </a>
                 </div>
+            </div>
+            <div class="site4">
+                <div class="div-img">
 
-                <div id="form2">
-                    <a id="mail" href="mailto:rogerio_a.oliveira@hotmail.com"><img src="/Media/email.webp" alt="Icone mostrando uma carta, simbolizando o e-mail">  rogerio_a.oliveira@hotmail.com</a>               
-                    
-                    <a id="cel" href="tel:48984744030"><img src="/Media/telefone.webp" alt="Icone mostrando telefone, simbolizando o telefone">  (48) 9.9173-5583</a>
-                    
-                    <a id="address" href="https://goo.gl/maps/3ni3iKC9kdHte4Uk8"><img src="/Media/localizacao.webp" alt="Icone de pin de localização">  Jardim Atlântico - Florianópolis/SC</a>
-                    
-                    <a id="git" href="https://github.com/rogerioaoliveira"><img src="/Media/github.webp" alt="Logo do Github">  Github</a>
+                    <h4>A.L.S Contabilidade - Serviços Contábeis</h4>
+                    <img class="portfolio-img" src="/Media/als.webp"
+                        alt="Print da página inicial do site da A.L.S Contabilidade- Serviços Contabeis">
+                </div>
+                <div class="div-link">
 
-                    <a id="linkedin" href="https://www.linkedin.com/in/raoliveiradev/"><img src="/Media/linkedin.webp" alt="Logo do LinkedIn">  LinkedIn</a>
+                    <a href="https://alscontabilidade.netlify.app/" target="_blank">
+                        <img class="portfolio-icone" src="/Media/site.webp" alt="Icone simbolizando site">
+                        <p>Site</p>
+                    </a>
+                    <a href="https://github.com/rogerioaoliveira/Site--ALS--Contabilidade" target="_blank">
+                        <img class="portfolio-icone" src="/Media/github2.webp" alt="icone do github">
+                        <p>Github</p>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-                    <a id="whats" href="https://api.whatsapp.com/send?phone=5548991735583&text=Ol%C3%A1%2C%20gostei%20do%20seu%20portfolio%20e%20gostaria%20de%20conversar."><img src="/Media/whats.webp" alt="Logo do WhatsApp">  WhatsApp</a>
-                </div>  
-            </section>
-        </main>
-    </body>
+        <section class="four">
+            <h2 id="contacts">Contato</h2>
 
-    <span>
-        <a class="start" href="/index.html#top">Topo</a>
-    </span>
+            <div id="form">
+                <form action="https://formsubmit.co/rogerio_a.oliveira@hotmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="tel" name="telefone" placeholder="Telefone com DDD" required>
+                    <textarea name="message" id="message" placeholder="Escreva aqui sua mensagem" required></textarea>
+                    <input type="hidden" name="_next" value="https://rogerioaoliveira.netlify.app//Pages/thanks.html">
+                    <button id="submit" type="submit">Enviar</button>
+                </form>
+            </div>
 
-    <footer>
-        <p>&copy; 2022 - <a href="https://www.linkedin.com/in/raoliveiradev/" target="_blank">Rogério A. Oliveira.</a></p>
-    </footer>
-    <script src="/Scripts/lgpd.js"></script>
+            <div id="form2">
+                <a id="mail" href="mailto:rogerio_a.oliveira@hotmail.com"><img src="/Media/email.webp"
+                        alt="Icone mostrando uma carta, simbolizando o e-mail"> rogerio_a.oliveira@hotmail.com</a>
+
+                <a id="cel" href="tel:48984744030"><img src="/Media/telefone.webp"
+                        alt="Icone mostrando telefone, simbolizando o telefone"> (48) 9.9173-5583</a>
+
+                <a id="git" href="https://github.com/rogerioaoliveira"><img src="/Media/github.webp"
+                        alt="Logo do Github"> Github</a>
+
+                <a id="linkedin" href="https://www.linkedin.com/in/raoliveiradev/"><img src="/Media/linkedin.webp"
+                        alt="Logo do LinkedIn"> LinkedIn</a>
+
+                <a id="whats"
+                    href="https://api.whatsapp.com/send?phone=5548991735583&text=Ol%C3%A1%2C%20gostei%20do%20seu%20portfolio%20e%20gostaria%20de%20conversar."><img
+                        src="/Media/whats.webp" alt="Logo do WhatsApp"> WhatsApp</a>
+            </div>
+        </section>
+    </main>
+</body>
+
+<span>
+    <a class="start" href="/index.html#top">Topo</a>
+</span>
+
+<footer>
+    <p>&copy; 2022 - <a href="https://www.linkedin.com/in/raoliveiradev/" target="_blank">Rogério A. Oliveira.</a></p>
+</footer>
+<script src="/Scripts/lgpd.js"></script>
 
 </html>
