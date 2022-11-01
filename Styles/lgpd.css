@@ -1,0 +1,38 @@
+.lgpd{
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+    background:  #00533bec;
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;    
+}
+
+.lgpd button{
+    background-color: #86faea;
+    color:  #00533c;
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+}
+
+.lgpd button:hover{
+    background-color: #00ffbb;
+    color: #ffffff;
+    transition: 0.3s;
+    border: none;
+}
+#pp{
+    text-decoration: none;
+    color: #86faea;
+    margin: 0;
+}
+#pp:hover{
+    transition: 0.3s;
+    font-size: 1.1em;
+}

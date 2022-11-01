@@ -29,3 +29,9 @@ button:hover{
     transition: 0.3s;
     border: none;
 }
+h2{
+    color: #00ffbb;
+    text-align: center;
+    justify-content: center;
+    font-size: 2em;
+}

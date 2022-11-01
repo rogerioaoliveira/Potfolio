@@ -1,9 +1,12 @@
 .two div{
     width: 50vw;
     display: inline-block;
+    position: relative;
 }
 #about-img{
-    float: left;
+    position: absolute;
+    left: 0;
+    top: 100vh;
     margin: auto;
     text-align: right;
     width: 50vw;
@@ -12,9 +15,15 @@
     padding-right: 7em;
 }
 #about-txt{
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 100vh;
     width: 48vw;
+    margin: auto;
+    text-align: left;
+    justify-content: space-around;
     margin-top: 10em;
+    padding-right: 7em;
 }
 .about-p{
     width: 40vw;
@@ -23,10 +32,18 @@
     margin-top: 1em;
     margin-bottom: 1em;
     font-size: 2rem;
-    margin-left: 7em;
+    text-align: center;
 }
 #cv{
     margin-top: 2em;
     width: 10em;
-    margin-left: 14em;
+    margin-left: 12em;
+}
+#about{
+    position: absolute;
+    top: 100vh;
+    width: 90vw;
+    text-align: center;
+    margin-top: 10em;
+    margin: 3rem;
 }

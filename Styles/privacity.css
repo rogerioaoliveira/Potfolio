@@ -1,0 +1,46 @@
+body{
+    margin: auto;
+    width: 70%;
+}
+p{
+    padding-bottom: 1em;
+    
+}
+h2, h3{
+    padding: 2em;
+    color: #ffffff;
+}
+h3{
+    font-size: 25px;
+}
+li{
+    color: #ffffff;
+    padding-bottom: 1em;
+    
+}
+li p{
+    padding: 3em;
+}
+span{
+    font-style: italic;
+    padding-left: 0.5em;
+}
+.start{    
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
+    position: fixed;
+    cursor: pointer;
+    top: 90vh;
+    right: 1.5em;
+    border: none;
+    display: block;
+    white-space: nowrap;
+    font-size: 1em;
+    letter-spacing: 0;
+    transform: translate(0,-47px) rotate(-90deg);
+}
+.start:hover{
+    font-size: 1.5em;
+    color: #FFFFFF;
+}

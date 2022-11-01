@@ -4,10 +4,7 @@
     font-family: 'Raleway', sans-serif;
     font-family: 'Red Hat Display', sans-serif;
 }
-h2{
-    color: #00ffbb;
-    text-align: center;
-    justify-content: center;
+#contacts{
     margin: 3rem;
 }
 #submit{

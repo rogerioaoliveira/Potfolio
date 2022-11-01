@@ -1,32 +1,28 @@
-/* para dividir a section da home em 2 divs iguais */
-
 .one div{
     width: 50vw;
-    display: inline-block;    
+    display: inline-block;  
+    position: relative;
 }
 #hello-txt{
-    float: left;
+    position: absolute;
+    left: 0;
     text-align: center;
-    line-height: 2em;
+    top: 10em;
 }
 #hello-txt h1{
     font-size: 4em;
     line-height: 1em;
 }
 #hello-txt h2{
-    font-size: 2em;
-}
+    line-height: 5em;}
 #hire{
     margin: auto;
     margin-top: 20px;
     width: 10em;
 }
-#hello-img{
-    float: right;
-}
 #hello-img img{
     position: absolute;
     width: 400px;
-    margin-left: 7rem;
-    top: 10em
+    top: 3em;
+    left: 50em;
 }
