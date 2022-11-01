@@ -13,7 +13,7 @@
     border-radius: 10px;    
 }
 
-.lgpd button{
+.lgpdBt{
     background-color: #86faea;
     color:  #00533c;
     cursor: pointer;
@@ -21,7 +21,7 @@
     border: none;
 }
 
-.lgpd button:hover{
+.lgpdBt:hover{
     background-color: #00ffbb;
     color: #ffffff;
     transition: 0.3s;

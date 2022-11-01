@@ -1,12 +1,12 @@
 let lgpdHtml = `
     <div class="lgpd">
     <div class="lgdp--left">
-    <p> Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência. Ao continuar navegando, você concorda com este monitoramento. Leia mais na nossa <a id="pp" href="/Pages/privacity.html">Política de Privacidade</a>.</p>
-       
+        Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência. Ao continuar navegando, você concorda com este monitoramento. Leia mais na nossa <br/>
+        <a id="pp" href="/Pages/privacity.html">Política de Privacidade</a>.
 
     </div>
     <div class="lgpd--right">
-        <button>OK</button>
+        <button class="lgpdBt">OK</button>
     </div>
     </div>
     <link rel="stylesheet" href="lgpd.css">
@@ -17,11 +17,13 @@ if(!lsContent){
     document.body.innerHTML += lgpdHtml;
 
     let lgpdArea = document.querySelector('.lgpd');
-    let lgpdButton = document.querySelector('button');
+    let lgpdButton = document.querySelector('.lgpdBt');
 
     lgpdButton.addEventListener('click', ()=>{
         lgpdArea.remove();
-        localStorage.setItem('lgpd', '123');
+        localStorage.setItem('lgpd', 'portifólio-Rogério-A.Oliveira');
     });
 
 }
+
+ 
