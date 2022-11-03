@@ -1,94 +1,92 @@
 
 @media (max-width: 1225px) {
+    body{
+        width: 100vw;
+    }
+    #menu{
+        width: 50vw;
+    }
     #hello-img img{
         width: 400px;
+        left: 40em;
     }
     .home-p{
         margin-left:0;
+    }
+    #cv{
+        margin-top: 5em;
     }
     #hello{
         margin-left: 0;
     }
     #about-img{
-        width: 100vw;
-        margin-top: 0;
-        margin-left: 3.5em;
-        margin-bottom: -6em;
-        float: none;
+        width: 90vw;
+        margin-left: 16em;
     }
     #about-img img{
-        width: 100px;
+        width: 150px;
+        float: left;
     }
     .two div{
-        width: 100vw;
-        display: grid;
-        margin: auto;
-        justify-content: center;
-        text-align: center;
+        width: 90vw;
+        display: inline-block;      
         line-height: 1em;
     }
     .about-p{
-        width: 90vw;
+        width: 50vw;
         font-size: small;
         margin: 0 auto;
+        float: right;
     }
     #about-txt{
-        width: 100vw;
-        float: none;
-
-    }
-    #about-txt h3{ 
-        display: none;
+        width: 93vw;
     }
     #cv{
         width: 10em;
         margin-left: 37vw;
     }
     .two h2{
-        width: 100vw;
+        width: 90vw;
         margin-left: 0;
     }
     .three{
+        margin-top: 30em;
+    }
+    .four{
         margin-top: 5em;
+    }
+    .start{
+        display: none;
     }
 }
 
 @media (max-width: 1020px) {
     #hello-txt h1{
-        font-size: 2em;
+        font-size: 3.5em;
     }
     #hello-img img{
-        width: 250px;
-        margin-left: 7rem;
+        width: 400px;
+        left: 35em 
     }
-    .home-p{
-        margin-left:0;
+    #about-img{
+        margin-left: 10em;
     }
-    #hello{
-        margin-left: 0;
-    }
-    .port-img{
-        width: 1.5em;
-        height: 1.5em;
-        margin-right: 0.3em;
-        display: inline-block;
-        text-align: center;
-        justify-items: center;
-    }
-    .container a{
-        line-height: 2em;
-        line-break: anywhere;
-        float: left;
-    }
+    .portfolio-img{
+        width: 25em;
+        height: auto;
+    }    
 }
 
 @media (max-width: 850px) {
+    .header{
+        width: 100%;
+    }
     #menu {
         display: block;
         position: absolute;
         width: 50vw;
-        top: 4.5rem;
-        right: 0px;
+        top: 5.5rem;
+        right: -58px;
         background: #00000057;
         transition: 0.6s;
         z-index: 1000;
@@ -159,13 +157,31 @@
         width: 70vw;
         height: 40vh;
     }
-    .start{
-        display: none;
-    }
     .container a{
         font-size: small;   
         overflow: hidden;
     }
+    #hello-txt h1{
+        font-size: 3em;
+    }
+    #hello-img img{
+        width: 300px;
+        left: 33em 
+    }
+    #about-img{
+        margin-left: 7em;
+    }
+    .portfolio-img{
+        width: 20em;
+        height: auto;
+    }  
+    .three{
+        margin-top: 45em;
+    }
+    #hello-txt{
+        margin-left: 3em;
+    }
+  
 }
 
 @media (max-width: 750px) {
@@ -206,18 +222,39 @@
         font-size: smaller;
         margin: 3em 0 3em 0;
     }
+    #hello-txt h1{
+        font-size: 2em;
+    }
+    #hello-img img{
+        width: 300px;
+        left: 27em 
+    }
+    #about-img{
+        margin-left: 5em;
+    }
+    .portfolio-icone{
+        width: 2em;
+    }
+    .portfolio-img{
+        width: 15em;
+        height: auto;
+    }  
+    .three{
+        margin-top: 45em;
+    }
+    #hello-txt{
+        margin-left: 3em;
+        margin-top: 5em;
+    }
+    .header{
+        width: 105vw;
+    }
+    .one{
+        margin-top: 5em;
+    }
 }
 
-@media (max-width: 425px){
-    div#form{
-        display: none;
-    }
-    #form2 img{
-        display: grid;
-        margin: auto;
-        margin-bottom: 0.5rem;
-    }
-}
+
 @media (max-width: 720px) {
     .one div{
       width: 100vw;
@@ -268,73 +305,48 @@
         width: 100vw;
         margin-left: 0;
     }
-    
-}
-
-@media (max-width: 600px) {
-    h1{
-      font-size: 48px;
-    }
-    .logo img{
-        width: 11em;
-        height: auto;
-        margin-left: 0.2em;
-    }
-  }
-
-@media (max-width: 350px) {
-    .logo img{
-        width: 8em;
-      }
-    #hello-txt h2{
-        font-size: larger;
-    }
-    #hello-txt p{
-        font-size: small;
-    }
-    .home-p{
-        margin-left:0;
-    }
-    #hello{
-        width: 100vw;
-        margin-left: 0;
-    }
-
     #about-img{
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        margin-left: 3.5em;
-        margin-bottom: -6em;
+        display: none;    
     }
-    .two div{
-        width: 100%;
-        display: block;
-        margin: auto;
-        justify-content: center;
-        text-align: center;
-        line-height: 1em;
+    .portfolio-icone{
+        width: 1.5em;
     }
-    .about-p{
-        width: 90vw;
-        font-size: small;
-        margin: 0 auto;
+    .portfolio-img{
+        width: 20em;
+        height: auto;
+    }  
+    
+    #hello-txt{
+        margin-left: 1.5em;
+    }
+    .header{
+        width: 111vw;
     }
     #about-txt{
         width: 100vw;
-        float: none;
-
+        margin: auto;
+        padding: 0;
     }
-    #about-txt h3{ 
-        display: none;
+    #about-txt #cv{
+        margin-left: 10em;
     }
-    #cv{
-        justify-content: center;
-        width: 10em;
-        margin-left: 0;
-    }
-    .two h2{
+    .three{
         width: 100vw;
-        margin-left: 0;
+        display: inline-block;
+        justify-content: space-between;
+        align-content: space-between;
     }
+    .div-img{
+        width: 100%;
+        float: none;
+    }
+    .div-link{
+        width: 100%;
+        float: none;
+        margin-left: -4em;
+        margin-top: -8em;
+        
+    }
+    
 }
+
